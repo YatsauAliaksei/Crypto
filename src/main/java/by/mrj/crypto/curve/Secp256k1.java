@@ -1,13 +1,12 @@
 package by.mrj.crypto.curve;
 
-import lombok.extern.log4j.Log4j2;
-
-import java.math.BigInteger;
 import org.bouncycastle.crypto.params.ECDomainParameters;
 import org.bouncycastle.jce.ECNamedCurveTable;
 import org.bouncycastle.jce.spec.ECParameterSpec;
 import org.bouncycastle.math.ec.ECCurve;
 import org.bouncycastle.math.ec.ECPoint;
+
+import java.math.BigInteger;
 //import org.bouncycastle.math.ec.custom.sec.SecP256K1Curve;
 
 public class Secp256k1 {
